@@ -41,13 +41,13 @@ with st.sidebar:
 #MAIN LOGIC
 def main():
     # giving a title
-    st.subheader('Enter the feature of 💵')
+    st.subheader('Enter your details')
     
     
     # getting the input data from the user
     number_of_peak = st.text_input("How many peaks of flow you experience")
     Age = st.text_input('Enter your age')
-    Estimated_day_of_ovulution = st.text_input("At what day of your cycle you experince ivulution")
+    Estimated_day_of_ovulution = st.text_input("At what day of your cycle you experince ovulution")
     Length_of_Leutal_Phase = st.text_input('What is Length of your leutal phase')
     Length_of_menses = st.text_input('Length of your cycle')
     BMI = st.text_input('enter your BMI')
